@@ -1,0 +1,27 @@
+.sheet1main
+{
+	background:#FFF;
+	margin:2px auto;
+	width:960px;
+	text-align:left;
+	
+}
+.sheet1con
+{
+	text-align:center;
+}
+.sheet1head
+{
+	background:url(../imgs/hbg.gif);
+	height:26px;
+	padding-top:4px;
+	color:#FFF;
+	text-align:center;
+	font-size:16px;
+	font-weight:bold;
+}
+.sheet11main
+{
+	font-size:14px;
+	line-height:20px;
+}

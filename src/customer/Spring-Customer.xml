@@ -1,0 +1,29 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+
+	<bean id="shopDao" class="com.dingcan.shop.dao.ShopDao">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="goodsDao" class="com.dingcan.goods.dao.GoodsDao">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="CommentsDao" class="com.dingcan.comments.dao.CommentsDao">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="userDao" class="com.dingcan.user.dao.UserDao">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="messageDao" class="com.dingcan.message.dao.MessageDao">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+	
+	<bean id="tagDao" class="com.dingcan.tag.dao.TagDao">
+		<property name="dataSource" ref="dataSource" />
+	</bean>
+</beans>
